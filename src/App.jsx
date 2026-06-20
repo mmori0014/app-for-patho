@@ -1,4 +1,5 @@
 ﻿import React, { useEffect, useMemo, useRef, useState } from "react";
+import { registerSW } from "virtual:pwa-register";
 import QUESTIONS_EXPORT from "./questions.export.json";
 
 /** ========================= Storage keys ========================= */
@@ -120,6 +121,13 @@ function makePresentedSet(q) {
 
 /** ========================= App ========================= */
 export default function App() {
+
+  useEffect(() => {
+    try {
+      registerSW({ immediate: true });
+    } catch {}
+  }, []);
+
   const [adminPass, setAdminPass] = useState(
     () => localStorage.getItem("patho-admin-pass") || ""
   );
