@@ -1,5 +1,5 @@
 {
-  "exportVersion": 5,
+  "exportVersion": 7,
   "questions": [
     {
       "uid": "y958we61inng",
@@ -2614,6 +2614,2779 @@
         "脂肪吸収能が低いため",
         "骨髄機能が未熟なため",
         "免疫機能が未熟なため"
+      ]
+    },
+    {
+      "uid": "nl3lgksdofki",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "局所的な細胞・組織の死を何というか",
+      "answerPool": [
+        "壊死"
+      ],
+      "dummyPool": [
+        "アポトーシス",
+        "変性",
+        "萎縮",
+        "化生",
+        "壊疽",
+        "梗塞",
+        "異形成"
+      ]
+    },
+    {
+      "uid": "sdm9upfk7tlp",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "アポトーシスではDNAにどのような変化がみられるか",
+      "answerPool": [
+        "断片化"
+      ],
+      "dummyPool": [
+        "膨化",
+        "融解",
+        "空胞化",
+        "石灰化",
+        "壊死",
+        "凝集のみ",
+        "腫大"
+      ]
+    },
+    {
+      "uid": "6g79pjv9huld",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "組織損傷後に別の種類の細胞組織に変化する現象を何というか",
+      "answerPool": [
+        "化生"
+      ],
+      "dummyPool": [
+        "過形成",
+        "肥大",
+        "萎縮",
+        "異形成",
+        "退形成",
+        "腫瘍",
+        "再生"
+      ]
+    },
+    {
+      "uid": "pukdq1pvco1o",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "加齢によって脳の容積が縮小する細胞の変化を何というか",
+      "answerPool": [
+        "生理的萎縮"
+      ],
+      "dummyPool": [
+        "病的萎縮",
+        "廃用性萎縮",
+        "神経原性萎縮",
+        "内分泌性萎縮",
+        "圧迫萎縮",
+        "過形成",
+        "化生"
+      ]
+    },
+    {
+      "uid": "go1uecu2xrjt",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "細胞障害の原因となる物理的因子の例を1つ挙げよ",
+      "answerPool": [
+        "外傷",
+        "圧迫",
+        "高温",
+        "低温",
+        "放射線",
+        "紫外線",
+        "電気"
+      ],
+      "dummyPool": [
+        "細菌",
+        "ウイルス",
+        "真菌",
+        "寄生虫",
+        "低酸素",
+        "活性酸素",
+        "薬物"
+      ]
+    },
+    {
+      "uid": "xcj9yfa3ts8p",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "変性でみられる組織外に沈着する異常タンパク質を何というか",
+      "answerPool": [
+        "アミロイド"
+      ],
+      "dummyPool": [
+        "フィブリン",
+        "コラーゲン",
+        "カスパーゼ",
+        "プラスミン",
+        "ヘモジデリン",
+        "リポフスチン",
+        "メラニン"
+      ]
+    },
+    {
+      "uid": "e7ncnb1l99hb",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "中枢神経、末梢神経、神経膠細胞のうち再生能力が最も低いのはどれか",
+      "answerPool": [
+        "中枢神経"
+      ],
+      "dummyPool": [
+        "末梢神経",
+        "神経膠細胞",
+        "骨格筋",
+        "肝臓",
+        "表皮",
+        "骨",
+        "結合組織"
+      ]
+    },
+    {
+      "uid": "qb0fcsr1s3m0",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "結核の際にみられる特異な凝固壊死を何というか",
+      "answerPool": [
+        "乾酪壊死"
+      ],
+      "dummyPool": [
+        "脂肪壊死",
+        "壊疽性壊死",
+        "融解壊死",
+        "線維素様壊死",
+        "硝子化",
+        "アポトーシス",
+        "化膿性炎"
+      ]
+    },
+    {
+      "uid": "cl18cvj7zpuk",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "異常な細胞増殖で、前癌病変に該当するものを何というか",
+      "answerPool": [
+        "異形成"
+      ],
+      "dummyPool": [
+        "過形成",
+        "化生",
+        "肥大",
+        "萎縮",
+        "退形成",
+        "再生",
+        "腫瘍"
+      ]
+    },
+    {
+      "uid": "2zl31zpvymzq",
+      "category": "炎症",
+      "type": "binary",
+      "question": "獲得免疫が関与するのは急性炎症か、慢性炎症か",
+      "answerPool": [
+        "慢性炎症"
+      ],
+      "dummyPool": [
+        "急性炎症"
+      ]
+    },
+    {
+      "uid": "g8z7lbnd8ejb",
+      "category": "炎症",
+      "type": "binary",
+      "question": "結核が分類されるのは急性炎症か、慢性炎症か",
+      "answerPool": [
+        "慢性炎症"
+      ],
+      "dummyPool": [
+        "急性炎症"
+      ]
+    },
+    {
+      "uid": "9wnlewnckai8",
+      "category": "炎症",
+      "type": "term",
+      "question": "急性炎症ではみられない、慢性炎症の組織学的特徴として何があるか",
+      "answerPool": [
+        "組織の線維化"
+      ],
+      "dummyPool": [
+        "好中球浸潤",
+        "血管透過性亢進",
+        "発赤",
+        "腫脹",
+        "急性期蛋白上昇",
+        "浮腫",
+        "充血"
+      ]
+    },
+    {
+      "uid": "zlqsi0ficfli",
+      "category": "炎症",
+      "type": "term",
+      "question": "抗体産生を担う細胞を何というか",
+      "answerPool": [
+        "形質細胞"
+      ],
+      "dummyPool": [
+        "好中球",
+        "マクロファージ",
+        "線維芽細胞",
+        "好酸球",
+        "好塩基球",
+        "樹状細胞",
+        "NK細胞"
+      ]
+    },
+    {
+      "uid": "h94qgslfmvw3",
+      "category": "炎症",
+      "type": "term",
+      "question": "肥満細胞が産生する炎症を惹起する生理活性物質を何というか",
+      "answerPool": [
+        "ヒスタミン"
+      ],
+      "dummyPool": [
+        "フィブリン",
+        "プラスミン",
+        "コラーゲン",
+        "カスパーゼ",
+        "補体",
+        "サイトカイン",
+        "ロイコトリエン"
+      ]
+    },
+    {
+      "uid": "hnr63bski1za",
+      "category": "炎症",
+      "type": "binary",
+      "question": "炎症時に血管透過性は亢進するか、否か",
+      "answerPool": [
+        "亢進する"
+      ],
+      "dummyPool": [
+        "低下する"
+      ]
+    },
+    {
+      "uid": "v5puwcge382e",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血小板凝集による応急処置的な止血を何というか",
+      "answerPool": [
+        "一次止血"
+      ],
+      "dummyPool": [
+        "二次止血",
+        "線溶",
+        "凝固",
+        "止血栓形成",
+        "血栓溶解",
+        "止血機構",
+        "血管収縮"
+      ]
+    },
+    {
+      "uid": "29ge92rbng4u",
+      "category": "循環障害",
+      "type": "term",
+      "question": "二次止血により生成されるタンパク質を何というか",
+      "answerPool": [
+        "フィブリン"
+      ],
+      "dummyPool": [
+        "プラスミン",
+        "アルブミン",
+        "コラーゲン",
+        "トロンビン",
+        "vWF",
+        "補体",
+        "免疫グロブリン"
+      ]
+    },
+    {
+      "uid": "6hpt5lfoqprh",
+      "category": "循環障害",
+      "type": "term",
+      "question": "線溶を担うタンパク質を何というか",
+      "answerPool": [
+        "プラスミン"
+      ],
+      "dummyPool": [
+        "フィブリン",
+        "フィブリノゲン",
+        "トロンビン",
+        "vWF",
+        "アルブミン",
+        "補体",
+        "カスパーゼ"
+      ]
+    },
+    {
+      "uid": "bhj0f5faly2f",
+      "category": "循環障害",
+      "type": "term",
+      "question": "二次止血におけるタンパク質の連鎖反応を何というか",
+      "answerPool": [
+        "凝固カスケード"
+      ],
+      "dummyPool": [
+        "線溶系",
+        "補体系",
+        "炎症性メディエーター",
+        "サイトカインストーム",
+        "免疫カスケード",
+        "血小板凝集",
+        "内因系のみ"
+      ]
+    },
+    {
+      "uid": "03hpq845ccyz",
+      "category": "循環障害",
+      "type": "term",
+      "question": "ビタミンK依存性の凝固因子を4つ挙げよ",
+      "answerPool": [
+        "第Ⅱ、Ⅶ、Ⅸ、Ⅹ因子"
+      ],
+      "dummyPool": [
+        "第Ⅰ、Ⅲ、Ⅴ、Ⅷ因子",
+        "第Ⅴ、Ⅷ、Ⅺ、Ⅻ因子",
+        "第Ⅰ、Ⅱ、Ⅲ、Ⅳ因子",
+        "第Ⅲ、Ⅴ、Ⅶ、Ⅷ因子",
+        "第Ⅰ、Ⅴ、Ⅶ、Ⅺ因子",
+        "第Ⅱ、Ⅴ、Ⅷ、Ⅻ因子",
+        "第Ⅰ、Ⅲ、Ⅸ、Ⅺ因子"
+      ]
+    },
+    {
+      "uid": "m3nga66tv7js",
+      "category": "循環障害",
+      "type": "term",
+      "question": "多くの凝固因子はどこの臓器で産生されるか",
+      "answerPool": [
+        "肝臓"
+      ],
+      "dummyPool": [
+        "脾臓",
+        "骨髄",
+        "腎臓",
+        "膵臓",
+        "胆嚢",
+        "リンパ節",
+        "胸腺"
+      ]
+    },
+    {
+      "uid": "oo9fltq343um",
+      "category": "循環障害",
+      "type": "term",
+      "question": "D-ダイマーの増加は何の亢進を示唆する所見か",
+      "answerPool": [
+        "凝固"
+      ],
+      "dummyPool": [
+        "線溶",
+        "炎症",
+        "免疫反応",
+        "造血",
+        "代謝",
+        "酸化ストレス",
+        "補体活性化"
+      ]
+    },
+    {
+      "uid": "pqu2skcsfzsu",
+      "category": "循環障害",
+      "type": "term",
+      "question": "PIC（プラスミン・α2-PI複合体）の増加は何の亢進を示唆する所見か",
+      "answerPool": [
+        "線溶"
+      ],
+      "dummyPool": [
+        "凝固",
+        "炎症",
+        "免疫反応",
+        "造血",
+        "代謝",
+        "酸化ストレス",
+        "補体活性化"
+      ]
+    },
+    {
+      "uid": "7dyyweidv9p4",
+      "category": "循環障害",
+      "type": "term",
+      "question": "TAT（トロンビン・アンチトロンビン複合体）の増加は何の亢進を示唆する所見か",
+      "answerPool": [
+        "凝固"
+      ],
+      "dummyPool": [
+        "線溶",
+        "炎症",
+        "免疫反応",
+        "造血",
+        "代謝",
+        "酸化ストレス",
+        "補体活性化"
+      ]
+    },
+    {
+      "uid": "37iuvilmt1ei",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血管が拡張し、動脈血流量が増加することを何というか",
+      "answerPool": [
+        "充血"
+      ],
+      "dummyPool": [
+        "うっ血",
+        "虚血",
+        "梗塞",
+        "浮腫",
+        "出血",
+        "壊死",
+        "塞栓"
+      ]
+    },
+    {
+      "uid": "vv2n44fdfhtq",
+      "category": "循環障害",
+      "type": "term",
+      "question": "静脈血の還流が障害され、静脈内に血液がうっ滞することを何というか",
+      "answerPool": [
+        "うっ血"
+      ],
+      "dummyPool": [
+        "充血",
+        "虚血",
+        "梗塞",
+        "浮腫",
+        "出血",
+        "壊死",
+        "塞栓"
+      ]
+    },
+    {
+      "uid": "v0ej96zigcdb",
+      "category": "循環障害",
+      "type": "term",
+      "question": "動脈血流量が減少することを何というか",
+      "answerPool": [
+        "虚血"
+      ],
+      "dummyPool": [
+        "充血",
+        "うっ血",
+        "梗塞",
+        "浮腫",
+        "出血",
+        "壊死",
+        "塞栓"
+      ]
+    },
+    {
+      "uid": "qdazhmtf3nml",
+      "category": "循環障害",
+      "type": "term",
+      "question": "上部消化管からの出血を何というか",
+      "answerPool": [
+        "吐血"
+      ],
+      "dummyPool": [
+        "下血",
+        "喀血",
+        "血尿",
+        "下血様嘔吐",
+        "血痰",
+        "鼻出血",
+        "血便"
+      ]
+    },
+    {
+      "uid": "ocyip8prtbi5",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血液を含んだ糞便の排泄を何というか",
+      "answerPool": [
+        "下血"
+      ],
+      "dummyPool": [
+        "吐血",
+        "喀血",
+        "血尿",
+        "血痰",
+        "鼻出血",
+        "血便のみ",
+        "タール便のみ"
+      ]
+    },
+    {
+      "uid": "flyuvwnson7n",
+      "category": "循環障害",
+      "type": "term",
+      "question": "肺や気管からの出血を何というか",
+      "answerPool": [
+        "喀血"
+      ],
+      "dummyPool": [
+        "吐血",
+        "下血",
+        "血尿",
+        "鼻出血",
+        "血痰のみ",
+        "血便",
+        "皮下出血"
+      ]
+    },
+    {
+      "uid": "1z3v6v22gcvd",
+      "category": "循環障害",
+      "type": "term",
+      "question": "非溶解性物質により血管が閉塞することを何というか",
+      "answerPool": [
+        "塞栓"
+      ],
+      "dummyPool": [
+        "血栓症",
+        "梗塞",
+        "うっ血",
+        "充血",
+        "虚血",
+        "壊死",
+        "出血"
+      ]
+    },
+    {
+      "uid": "fwk998cgefrt",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血液凝固塊によって血管が閉塞する病態を何というか",
+      "answerPool": [
+        "血栓症"
+      ],
+      "dummyPool": [
+        "塞栓",
+        "梗塞",
+        "うっ血",
+        "充血",
+        "虚血",
+        "壊死",
+        "出血"
+      ]
+    },
+    {
+      "uid": "t920pbi6q6y4",
+      "category": "循環障害",
+      "type": "binary",
+      "question": "深部静脈血栓症の好発部位はどこか",
+      "answerPool": [
+        "下肢"
+      ],
+      "dummyPool": [
+        "上肢"
+      ]
+    },
+    {
+      "uid": "g2z2l2zy2x47",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血管閉塞に起因する末梢組織の壊死を何というか",
+      "answerPool": [
+        "梗塞"
+      ],
+      "dummyPool": [
+        "塞栓",
+        "血栓症",
+        "うっ血",
+        "充血",
+        "虚血",
+        "出血",
+        "壊疽"
+      ]
+    },
+    {
+      "uid": "sk27jrbcy9ks",
+      "category": "循環障害",
+      "type": "term",
+      "question": "高血圧の基準となる収縮期と拡張期の値はそれぞれいくつか",
+      "answerPool": [
+        "140mmHg以上、90mmHg以上"
+      ],
+      "dummyPool": [
+        "130mmHg以上、85mmHg以上",
+        "150mmHg以上、95mmHg以上",
+        "135mmHg以上、80mmHg以上",
+        "160mmHg以上、100mmHg以上",
+        "120mmHg以上、80mmHg以上",
+        "145mmHg以上、90mmHg以上",
+        "140mmHg以上、85mmHg以上"
+      ]
+    },
+    {
+      "uid": "0iq6ais3nasb",
+      "category": "循環障害",
+      "type": "term",
+      "question": "高血圧の大部分を占める原因不明の高血圧を何というか",
+      "answerPool": [
+        "本態性高血圧"
+      ],
+      "dummyPool": [
+        "二次性高血圧",
+        "腎性高血圧",
+        "内分泌性高血圧",
+        "妊娠高血圧",
+        "白衣高血圧",
+        "仮面高血圧",
+        "肺高血圧"
+      ]
+    },
+    {
+      "uid": "4h10thvlo2k6",
+      "category": "循環障害",
+      "type": "term",
+      "question": "機能不全により二次性高血圧を惹起しやすい臓器は何か",
+      "answerPool": [
+        "腎臓"
+      ],
+      "dummyPool": [
+        "肝臓",
+        "脾臓",
+        "膵臓",
+        "甲状腺",
+        "副腎",
+        "肺",
+        "心臓"
+      ]
+    },
+    {
+      "uid": "rj26nwzyr055",
+      "category": "循環障害",
+      "type": "binary",
+      "question": "降圧剤であるCa拮抗薬は心拍出量と末梢血管抵抗のどちらを低下させるか",
+      "answerPool": [
+        "末梢血管抵抗"
+      ],
+      "dummyPool": [
+        "心拍出量"
+      ]
+    },
+    {
+      "uid": "hk6btkw1oou2",
+      "category": "循環障害",
+      "type": "binary",
+      "question": "ACE（アンジオテンシン変換酵素）阻害薬は心拍出量と末梢血管抵抗のどちらを低下させるか",
+      "answerPool": [
+        "末梢血管抵抗"
+      ],
+      "dummyPool": [
+        "心拍出量"
+      ]
+    },
+    {
+      "uid": "tq5w3e2ixcma",
+      "category": "循環障害",
+      "type": "binary",
+      "question": "利尿薬は心拍出量と末梢血管抵抗のどちらを低下させるか",
+      "answerPool": [
+        "心拍出量"
+      ],
+      "dummyPool": [
+        "末梢血管抵抗"
+      ]
+    },
+    {
+      "uid": "bam0u0x1izur",
+      "category": "循環障害",
+      "type": "binary",
+      "question": "β遮断薬は心拍出量と末梢血管抵抗のどちらを低下させるか",
+      "answerPool": [
+        "心拍出量"
+      ],
+      "dummyPool": [
+        "末梢血管抵抗"
+      ]
+    },
+    {
+      "uid": "bx51kes3e751",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "悪性腫瘍において、分化度が上がると異型度はどうなるか",
+      "answerPool": [
+        "下がる"
+      ],
+      "dummyPool": [
+        "上がる"
+      ]
+    },
+    {
+      "uid": "hp5mzur2xms8",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "悪性腫瘍の発育形式は浸潤性か、膨張性か",
+      "answerPool": [
+        "浸潤性"
+      ],
+      "dummyPool": [
+        "膨張性"
+      ]
+    },
+    {
+      "uid": "ruto9xo08rcl",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "転移しやすいのは悪性腫瘍と良性腫瘍のどちらか",
+      "answerPool": [
+        "悪性腫瘍"
+      ],
+      "dummyPool": [
+        "良性腫瘍"
+      ]
+    },
+    {
+      "uid": "w71dkdtnsaaw",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "再発しやすいのは悪性腫瘍と良性腫瘍のどちらか",
+      "answerPool": [
+        "悪性腫瘍"
+      ],
+      "dummyPool": [
+        "良性腫瘍"
+      ]
+    },
+    {
+      "uid": "8g1tmj2ijica",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "分化度は高いのは悪性腫瘍と良性腫瘍のどちらか",
+      "answerPool": [
+        "良性腫瘍"
+      ],
+      "dummyPool": [
+        "悪性腫瘍"
+      ]
+    },
+    {
+      "uid": "o66i5uwd8ml0",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "正常細胞と比較して腫瘍ではクロマチンは増加するか、減少するか",
+      "answerPool": [
+        "増加"
+      ],
+      "dummyPool": [
+        "減少"
+      ]
+    },
+    {
+      "uid": "px7rxpinwr84",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "正常細胞と比較して腫瘍ではN/C比は増加するか、減少するか",
+      "answerPool": [
+        "増加"
+      ],
+      "dummyPool": [
+        "減少"
+      ]
+    },
+    {
+      "uid": "9j5jywzik7mu",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "癌細胞の転移様式を3つ挙げよ",
+      "answerPool": [
+        "リンパ行性",
+        "血行性",
+        "播種"
+      ],
+      "dummyPool": [
+        "接触感染性",
+        "経胎盤性",
+        "神経行性",
+        "直接浸潤のみ",
+        "飛沫性",
+        "垂直感染性",
+        "水平感染性"
+      ]
+    },
+    {
+      "uid": "xmdb512renqp",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "紫外線被曝は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "皮膚癌"
+      ],
+      "dummyPool": [
+        "肺癌",
+        "肝癌",
+        "膀胱癌",
+        "胃癌",
+        "白血病",
+        "甲状腺癌",
+        "子宮頸癌"
+      ]
+    },
+    {
+      "uid": "9o4fu9n27buu",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "放射線被曝は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "白血病",
+        "甲状腺がん"
+      ],
+      "dummyPool": [
+        "皮膚癌",
+        "肺癌",
+        "肝癌",
+        "膀胱癌",
+        "胃癌",
+        "子宮頸癌",
+        "大腸癌"
+      ]
+    },
+    {
+      "uid": "xkz8pwbmst9t",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "HPV感染は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "子宮頸がん"
+      ],
+      "dummyPool": [
+        "肝癌",
+        "胃癌",
+        "膀胱癌",
+        "白血病",
+        "皮膚癌",
+        "肺癌",
+        "大腸癌"
+      ]
+    },
+    {
+      "uid": "r2ahht0ji5wu",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "HTLV-1の感染は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "白血病（ATL)"
+      ],
+      "dummyPool": [
+        "子宮頸癌",
+        "肝癌",
+        "胃癌",
+        "膀胱癌",
+        "皮膚癌",
+        "肺癌",
+        "大腸癌"
+      ]
+    },
+    {
+      "uid": "ugaynifc083a",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "芳香族アミン被曝は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "膀胱癌"
+      ],
+      "dummyPool": [
+        "肺癌",
+        "肝癌",
+        "胃癌",
+        "白血病",
+        "皮膚癌",
+        "子宮頸癌",
+        "大腸癌"
+      ]
+    },
+    {
+      "uid": "1nufakhsc6lq",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "アスベスト被曝は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "悪性中皮腫",
+        "肺がん"
+      ],
+      "dummyPool": [
+        "膀胱癌",
+        "肝癌",
+        "胃癌",
+        "白血病",
+        "皮膚癌",
+        "子宮頸癌",
+        "大腸癌"
+      ]
+    },
+    {
+      "uid": "bylipz0w28kr",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "ピロリ菌感染は何の腫瘍のリスクファクターとなるか",
+      "answerPool": [
+        "胃がん"
+      ],
+      "dummyPool": [
+        "肺癌",
+        "肝癌",
+        "膀胱癌",
+        "白血病",
+        "皮膚癌",
+        "子宮頸癌",
+        "大腸癌"
+      ]
+    },
+    {
+      "uid": "c3hhb9eo5j0y",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "骨への転移を起こしやすいのはどこの癌か",
+      "answerPool": [
+        "肺"
+      ],
+      "dummyPool": [
+        "肝臓",
+        "脾臓",
+        "腎臓",
+        "膵臓",
+        "甲状腺",
+        "胆嚢",
+        "食道"
+      ]
+    },
+    {
+      "uid": "ovxhjwuaz0oe",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "脳への転移を起こしやすいのはどこの癌か",
+      "answerPool": [
+        "肺"
+      ],
+      "dummyPool": [
+        "肝臓",
+        "脾臓",
+        "腎臓",
+        "膵臓",
+        "甲状腺",
+        "胆嚢",
+        "食道"
+      ]
+    },
+    {
+      "uid": "mbup7aq9zty0",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "肝臓への転移が多いのはどこの臓器の癌か",
+      "answerPool": [
+        "大腸癌"
+      ],
+      "dummyPool": [
+        "肺癌",
+        "腎癌",
+        "甲状腺癌",
+        "前立腺癌",
+        "皮膚癌",
+        "膀胱癌",
+        "子宮頸癌"
+      ]
+    },
+    {
+      "uid": "kv4p5bau45d7",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "消化器癌のダグラス窩への転移を何というか",
+      "answerPool": [
+        "シュニッツラー転移"
+      ],
+      "dummyPool": [
+        "クルーケンベルグ腫瘍",
+        "ウィルムス腫瘍",
+        "シスター・メリー・ジョセフ転移",
+        "ウィルヒョウ転移",
+        "骨転移",
+        "脳転移",
+        "肝転移"
+      ]
+    },
+    {
+      "uid": "ro1uozj3cb3p",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "K-rasはがん遺伝子か、癌抑制遺伝子か",
+      "answerPool": [
+        "癌遺伝子"
+      ],
+      "dummyPool": [
+        "癌抑制遺伝子"
+      ]
+    },
+    {
+      "uid": "73wjrh741p5d",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "VHLはがん遺伝子か、がん抑制遺伝子か",
+      "answerPool": [
+        "癌抑制遺伝子"
+      ],
+      "dummyPool": [
+        "癌遺伝子"
+      ]
+    },
+    {
+      "uid": "66770qrppth3",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "EGFRはがん遺伝子か、がん抑制遺伝子か",
+      "answerPool": [
+        "癌遺伝子"
+      ],
+      "dummyPool": [
+        "癌抑制遺伝子"
+      ]
+    },
+    {
+      "uid": "lvwpqye8an16",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "APCはがん遺伝子か、がん抑制遺伝子か",
+      "answerPool": [
+        "癌抑制遺伝子"
+      ],
+      "dummyPool": [
+        "癌遺伝子"
+      ]
+    },
+    {
+      "uid": "j28wyhq3xwx2",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "BRCAはがん遺伝子か、がん抑制遺伝子か",
+      "answerPool": [
+        "癌抑制遺伝子"
+      ],
+      "dummyPool": [
+        "癌遺伝子"
+      ]
+    },
+    {
+      "uid": "3su7kqn66xz9",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "AFPはどこの癌の腫瘍マーカーとなるか",
+      "answerPool": [
+        "肝がん"
+      ],
+      "dummyPool": [
+        "膵がん",
+        "乳がん",
+        "卵巣がん",
+        "前立腺がん",
+        "大腸がん",
+        "胃がん",
+        "肺がん"
+      ]
+    },
+    {
+      "uid": "hdfp5wb4kxbw",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "CA19-9はどこの癌の腫瘍マーカーとなるか",
+      "answerPool": [
+        "膵がん"
+      ],
+      "dummyPool": [
+        "肝がん",
+        "乳がん",
+        "卵巣がん",
+        "前立腺がん",
+        "大腸がん",
+        "胃がん",
+        "肺がん"
+      ]
+    },
+    {
+      "uid": "6ba7tmp5axzf",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "CA15-3はどこの癌の腫瘍マーカーとなるか",
+      "answerPool": [
+        "乳がん"
+      ],
+      "dummyPool": [
+        "肝がん",
+        "膵がん",
+        "卵巣がん",
+        "前立腺がん",
+        "大腸がん",
+        "胃がん",
+        "肺がん"
+      ]
+    },
+    {
+      "uid": "zus0teu8uy6z",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "CA125はどこの癌の腫瘍マーカーとなるか",
+      "answerPool": [
+        "卵巣がん"
+      ],
+      "dummyPool": [
+        "肝がん",
+        "膵がん",
+        "乳がん",
+        "前立腺がん",
+        "大腸がん",
+        "胃がん",
+        "肺がん"
+      ]
+    },
+    {
+      "uid": "48fwz4ztfcbm",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "PSAはどこの癌の腫瘍マーカーとなるか",
+      "answerPool": [
+        "前立腺がん"
+      ],
+      "dummyPool": [
+        "肝がん",
+        "膵がん",
+        "乳がん",
+        "卵巣がん",
+        "大腸がん",
+        "胃がん",
+        "肺がん"
+      ]
+    },
+    {
+      "uid": "nrejv0h9grjd",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "1年に1回の検診が推奨されるのはどこのがんの検診か",
+      "answerPool": [
+        "肺がん",
+        "大腸がん"
+      ],
+      "dummyPool": [
+        "乳がん",
+        "胃がん",
+        "子宮頸がん",
+        "前立腺がん",
+        "膵がん",
+        "肝がん",
+        "卵巣がん"
+      ]
+    },
+    {
+      "uid": "91avbhp9so81",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "便潜血検査が実施されるのはどこのがんの検診か",
+      "answerPool": [
+        "大腸がん"
+      ],
+      "dummyPool": [
+        "肺がん",
+        "乳がん",
+        "胃がん",
+        "子宮頸がん",
+        "前立腺がん",
+        "膵がん",
+        "肝がん"
+      ]
+    },
+    {
+      "uid": "9k2rfyouwdrq",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "乳がんの好発部位はどこか",
+      "answerPool": [
+        "外側上方（C領域）"
+      ],
+      "dummyPool": [
+        "内側上方",
+        "外側下方",
+        "内側下方",
+        "乳頭直下",
+        "腋窩中央",
+        "胸骨直下",
+        "乳輪下"
+      ]
+    },
+    {
+      "uid": "8pvherhv3yyz",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "乳がん検診は何歳以上が対象となるか",
+      "answerPool": [
+        "40歳"
+      ],
+      "dummyPool": [
+        "20歳",
+        "30歳",
+        "35歳",
+        "45歳",
+        "50歳",
+        "60歳",
+        "25歳"
+      ]
+    },
+    {
+      "uid": "2sysl3qgbb2x",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "全身の諸臓器に銅が沈着する疾患を何というか",
+      "answerPool": [
+        "Wilson病"
+      ],
+      "dummyPool": [
+        "ヘモクロマトーシス",
+        "ポルフィリン症",
+        "アミロイドーシス",
+        "糖原病",
+        "ゴーシェ病",
+        "ニーマン・ピック病",
+        "痛風"
+      ]
+    },
+    {
+      "uid": "rv2uhysyiq27",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "Wilson病でみられる角膜における銅沈着による色素環を何というか",
+      "answerPool": [
+        "カイザーフライシャー角膜輪"
+      ],
+      "dummyPool": [
+        "コプリック斑",
+        "ロート斑",
+        "リーゼガング輪",
+        "アーカス老人環",
+        "ブッシュケ・オレンドルフ徴候",
+        "蝶形紅斑",
+        "痛風結節"
+      ]
+    },
+    {
+      "uid": "d20qje4n8559",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "ヘムの合成経路に異常がみられる先天性代謝疾患を何というか",
+      "answerPool": [
+        "ポルフィリン症"
+      ],
+      "dummyPool": [
+        "Wilson病",
+        "ヘモクロマトーシス",
+        "アミロイドーシス",
+        "糖原病",
+        "ゴーシェ病",
+        "ニーマン・ピック病",
+        "フェニルケトン尿症"
+      ]
+    },
+    {
+      "uid": "0ve4okkquqv3",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "非連続性の消化管粘膜病変を呈する原因不明の疾患を何というか",
+      "answerPool": [
+        "クローン病"
+      ],
+      "dummyPool": [
+        "潰瘍性大腸炎",
+        "虫垂炎",
+        "胃潰瘍",
+        "大腸ポリープ",
+        "過敏性腸症候群",
+        "セリアック病",
+        "憩室炎"
+      ]
+    },
+    {
+      "uid": "utiir2om9x1f",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "血中・尿中のフェニルアラニンが増加する先天性アミノ酸代謝障害を何というか",
+      "answerPool": [
+        "フェニルケトン尿症"
+      ],
+      "dummyPool": [
+        "アルカプトン尿症",
+        "糖原病",
+        "ゴーシェ病",
+        "ニーマン・ピック病",
+        "痛風",
+        "Wilson病",
+        "ポルフィリン症"
+      ]
+    },
+    {
+      "uid": "lljvnu6v87qr",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "プリン体代謝異常による高尿酸血症がみられ、急性関節症や腎障害を呈する疾患を何というか",
+      "answerPool": [
+        "痛風"
+      ],
+      "dummyPool": [
+        "偽痛風",
+        "関節リウマチ",
+        "変形性関節症",
+        "骨粗鬆症",
+        "強直性脊椎炎",
+        "化膿性関節炎",
+        "ベーチェット病"
+      ]
+    },
+    {
+      "uid": "va9qgxwsghxe",
+      "category": "循環障害",
+      "type": "term",
+      "question": "閉塞性動脈硬化症は、どのような人に好発するか",
+      "answerPool": [
+        "50歳以上の男性"
+      ],
+      "dummyPool": [
+        "20歳代の女性",
+        "小児",
+        "思春期男性",
+        "閉経前女性",
+        "30歳代の女性",
+        "新生児",
+        "若年男性"
+      ]
+    },
+    {
+      "uid": "fcewy465hg0b",
+      "category": "循環障害",
+      "type": "binary",
+      "question": "閉塞性動脈硬化症に合併することが多いのは、高血圧か低血圧か",
+      "answerPool": [
+        "高血圧"
+      ],
+      "dummyPool": [
+        "低血圧"
+      ]
+    },
+    {
+      "uid": "rdjf96w0csin",
+      "category": "循環障害",
+      "type": "term",
+      "question": "閉塞性動脈硬化症でみられやすい異常歩行を何というか",
+      "answerPool": [
+        "間欠性跛行"
+      ],
+      "dummyPool": [
+        "失調性歩行",
+        "痙性歩行",
+        "動揺性歩行",
+        "鶏歩",
+        "小刻み歩行",
+        "酩酊様歩行",
+        "はさみ脚歩行"
+      ]
+    },
+    {
+      "uid": "8y7kg3l1imdm",
+      "category": "循環障害",
+      "type": "term",
+      "question": "解離性大動脈瘤は何の疾患に続発して発症するか",
+      "answerPool": [
+        "高血圧",
+        "動脈硬化"
+      ],
+      "dummyPool": [
+        "糖尿病",
+        "脂質異常症",
+        "痛風",
+        "骨粗鬆症",
+        "貧血",
+        "甲状腺機能亢進症",
+        "肥満"
+      ]
+    },
+    {
+      "uid": "eeu966ml47jz",
+      "category": "循環障害",
+      "type": "term",
+      "question": "20-40歳代の喫煙男性者が罹患しやすい四肢の炎症性動脈疾患を何というか",
+      "answerPool": [
+        "Burger病"
+      ],
+      "dummyPool": [
+        "閉塞性動脈硬化症",
+        "レイノー病",
+        "深部静脈血栓症",
+        "大動脈炎症候群",
+        "川崎病",
+        "結節性多発動脈炎",
+        "静脈瘤"
+      ]
+    },
+    {
+      "uid": "zx2jmw4masgw",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "B細胞（形質細胞）は何を産生するか",
+      "answerPool": [
+        "免疫グロブリン"
+      ],
+      "dummyPool": [
+        "サイトカイン",
+        "ヒスタミン",
+        "補体",
+        "フィブリン",
+        "プラスミン",
+        "コラーゲン",
+        "カスパーゼ"
+      ]
+    },
+    {
+      "uid": "5eeqon8bjun0",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "T細胞は他の免疫細胞への指示媒体として何を産生するか",
+      "answerPool": [
+        "サイトカイン"
+      ],
+      "dummyPool": [
+        "免疫グロブリン",
+        "ヒスタミン",
+        "補体",
+        "フィブリン",
+        "プラスミン",
+        "コラーゲン",
+        "カスパーゼ"
+      ]
+    },
+    {
+      "uid": "d03d2edfgip5",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "マクロファージはどの細胞から分化するか",
+      "answerPool": [
+        "単球"
+      ],
+      "dummyPool": [
+        "好中球",
+        "リンパ球",
+        "好酸球",
+        "好塩基球",
+        "赤血球",
+        "血小板前駆細胞",
+        "形質細胞"
+      ]
+    },
+    {
+      "uid": "yplauq8l4eso",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "免疫グロブリンが関与する免疫を何というか",
+      "answerPool": [
+        "液性免疫"
+      ],
+      "dummyPool": [
+        "細胞性免疫",
+        "自然免疫",
+        "受動免疫のみ",
+        "能動免疫のみ",
+        "局所免疫",
+        "粘膜免疫"
+      ]
+    },
+    {
+      "uid": "8c80xm97kvk9",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "アナフィラキシーショックは何型のアレルギー性疾患か",
+      "answerPool": [
+        "Ⅰ型"
+      ],
+      "dummyPool": [
+        "Ⅱ型",
+        "Ⅲ型",
+        "Ⅳ型",
+        "Ⅴ型",
+        "自己免疫型",
+        "遅延型のみ",
+        "液性免疫型のみ"
+      ]
+    },
+    {
+      "uid": "d4okf9q9fqv4",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "自己免疫性溶血性貧血は何型のアレルギー性疾患か",
+      "answerPool": [
+        "Ⅱ型"
+      ],
+      "dummyPool": [
+        "Ⅰ型",
+        "Ⅲ型",
+        "Ⅳ型",
+        "Ⅴ型",
+        "遅延型",
+        "即時型のみ",
+        "細胞性免疫型のみ"
+      ]
+    },
+    {
+      "uid": "pgxnyc2kwz1i",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "ツベルクリン反応や自己免疫性疾患は何型のアレルギー性疾患か",
+      "answerPool": [
+        "Ⅳ型"
+      ],
+      "dummyPool": [
+        "Ⅰ型",
+        "Ⅱ型",
+        "Ⅲ型",
+        "Ⅴ型",
+        "即時型",
+        "液性免疫型",
+        "補体依存型のみ"
+      ]
+    },
+    {
+      "uid": "9o2l1ztjwqzh",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "急性糸球体（ループス）腎炎は何型のアレルギー性疾患か",
+      "answerPool": [
+        "Ⅲ型"
+      ],
+      "dummyPool": [
+        "Ⅰ型",
+        "Ⅱ型",
+        "Ⅳ型",
+        "Ⅴ型",
+        "即時型のみ",
+        "遅延型のみ",
+        "細胞傷害型のみ"
+      ]
+    },
+    {
+      "uid": "9ir1jvk71rjc",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "重症筋無力症は何型のアレルギー性疾患か",
+      "answerPool": [
+        "Ⅱ型"
+      ],
+      "dummyPool": [
+        "Ⅰ型",
+        "Ⅲ型",
+        "Ⅳ型",
+        "Ⅴ型",
+        "遅延型",
+        "即時型のみ",
+        "免疫複合体型のみ"
+      ]
+    },
+    {
+      "uid": "22b2yltp5uw1",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "関節内で尿酸カルシウムが結晶化する疾患を何というか",
+      "answerPool": [
+        "痛風"
+      ],
+      "dummyPool": [
+        "偽痛風",
+        "関節リウマチ",
+        "変形性関節症",
+        "骨粗鬆症",
+        "強直性脊椎炎",
+        "化膿性関節炎",
+        "ベーチェット病"
+      ]
+    },
+    {
+      "uid": "io5dvhpcnk34",
+      "category": "感染症",
+      "type": "term",
+      "question": "飲食物を介する感染経路を何というか",
+      "answerPool": [
+        "媒介物感染"
+      ],
+      "dummyPool": [
+        "飛沫感染",
+        "空気感染",
+        "接触感染",
+        "垂直感染",
+        "血液感染",
+        "性行為感染",
+        "経皮感染"
+      ]
+    },
+    {
+      "uid": "uubhbbhghiii",
+      "category": "感染症",
+      "type": "term",
+      "question": "母親から新生児への感染経路を総称して何というか",
+      "answerPool": [
+        "垂直感染"
+      ],
+      "dummyPool": [
+        "水平感染",
+        "媒介物感染",
+        "飛沫感染",
+        "空気感染",
+        "接触感染",
+        "血液感染",
+        "経皮感染"
+      ]
+    },
+    {
+      "uid": "ru4gqb6p3mfw",
+      "category": "感染症",
+      "type": "term",
+      "question": "接触、飲食物、空気などを介する個体間の感染経路を総称して何というか",
+      "answerPool": [
+        "水平感染"
+      ],
+      "dummyPool": [
+        "垂直感染",
+        "媒介物感染のみ",
+        "飛沫感染のみ",
+        "空気感染のみ",
+        "接触感染のみ",
+        "血液感染のみ",
+        "経胎盤感染"
+      ]
+    },
+    {
+      "uid": "b7r6fvmfe085",
+      "category": "感染症",
+      "type": "term",
+      "question": "弱毒菌にもかかわらず容易に感染症を引き起こすことを何というか",
+      "answerPool": [
+        "日和見感染"
+      ],
+      "dummyPool": [
+        "不顕性感染",
+        "垂直感染",
+        "水平感染",
+        "異所性感染",
+        "菌交代現象",
+        "院内感染",
+        "二次感染"
+      ]
+    },
+    {
+      "uid": "vz74734ehadc",
+      "category": "感染症",
+      "type": "term",
+      "question": "感染しても発症しない感染を何というか",
+      "answerPool": [
+        "不顕性感染"
+      ],
+      "dummyPool": [
+        "日和見感染",
+        "垂直感染",
+        "水平感染",
+        "異所性感染",
+        "潜伏感染のみ",
+        "顕性感染",
+        "持続感染"
+      ]
+    },
+    {
+      "uid": "mo6z0wrgr6ty",
+      "category": "感染症",
+      "type": "term",
+      "question": "インフルエンザウイルスや細菌性肺炎の感染経路を何というか",
+      "answerPool": [
+        "飛沫感染"
+      ],
+      "dummyPool": [
+        "空気感染",
+        "接触感染",
+        "媒介物感染",
+        "垂直感染",
+        "血液感染",
+        "性行為感染",
+        "経皮感染"
+      ]
+    },
+    {
+      "uid": "v6o8g5op2u3l",
+      "category": "感染症",
+      "type": "term",
+      "question": "B型肝炎ウイルスの主な感染経路は何か",
+      "answerPool": [
+        "血液感染"
+      ],
+      "dummyPool": [
+        "飛沫感染",
+        "空気感染",
+        "媒介物感染",
+        "接触感染",
+        "経口感染",
+        "垂直感染のみ",
+        "経皮感染のみ"
+      ]
+    },
+    {
+      "uid": "tpawf0wsbauk",
+      "category": "感染症",
+      "type": "term",
+      "question": "C型肝炎ウイルスの主な感染経路は何か",
+      "answerPool": [
+        "血液感染"
+      ],
+      "dummyPool": [
+        "飛沫感染",
+        "空気感染",
+        "媒介物感染",
+        "接触感染",
+        "経口感染",
+        "垂直感染のみ",
+        "経皮感染のみ"
+      ]
+    },
+    {
+      "uid": "k1n3vhdc9voi",
+      "category": "感染症",
+      "type": "term",
+      "question": "MRSAとは何に耐性を獲得した何という細菌か",
+      "answerPool": [
+        "メチシリン耐性黄色ブドウ球菌"
+      ],
+      "dummyPool": [
+        "バンコマイシン耐性腸球菌",
+        "多剤耐性緑膿菌",
+        "多剤耐性アシネトバクター",
+        "ペニシリン耐性肺炎球菌",
+        "薬剤耐性結核菌",
+        "ESBL産生菌",
+        "カルバペネム耐性腸内細菌目細菌"
+      ]
+    },
+    {
+      "uid": "krrxbg5twm8c",
+      "category": "感染症",
+      "type": "term",
+      "question": "胃に生息する螺旋形細菌を何というか",
+      "answerPool": [
+        "ヘリコバクターピロリ"
+      ],
+      "dummyPool": [
+        "大腸菌",
+        "黄色ブドウ球菌",
+        "結核菌",
+        "破傷風菌",
+        "クラミジア",
+        "マイコプラズマ",
+        "リケッチア"
+      ]
+    },
+    {
+      "uid": "38h1ztz6k2s6",
+      "category": "感染症",
+      "type": "term",
+      "question": "ヘリコバクターピロリによって引き起こされる胃にみられる代表的な疾患を1つ挙げよ",
+      "answerPool": [
+        "胃癌",
+        "慢性胃炎",
+        "萎縮性胃炎",
+        "胃潰瘍"
+      ],
+      "dummyPool": [
+        "大腸癌",
+        "食道癌",
+        "膵癌",
+        "肝癌",
+        "胆嚢炎",
+        "クローン病",
+        "潰瘍性大腸炎"
+      ]
+    },
+    {
+      "uid": "3ely9cofnfq2",
+      "category": "感染症",
+      "type": "term",
+      "question": "後天性免疫不全症候群（AIDS）の原因は何か",
+      "answerPool": [
+        "HIV感染"
+      ],
+      "dummyPool": [
+        "HTLV-1感染",
+        "HBV感染",
+        "HCV感染",
+        "EBV感染",
+        "CMV感染",
+        "梅毒トレポネーマ感染",
+        "淋菌感染"
+      ]
+    },
+    {
+      "uid": "0s89nhb4hqnk",
+      "category": "感染症",
+      "type": "term",
+      "question": "HIVの主な感染経路は何か",
+      "answerPool": [
+        "性行為感染",
+        "血液感染"
+      ],
+      "dummyPool": [
+        "飛沫感染",
+        "空気感染",
+        "媒介物感染",
+        "経口感染",
+        "接触感染のみ",
+        "経皮感染のみ",
+        "水平感染のみ"
+      ]
+    },
+    {
+      "uid": "dwghnoil606t",
+      "category": "感染症",
+      "type": "term",
+      "question": "HIVが感染するのは何細胞か",
+      "answerPool": [
+        "ヘルパーT細胞（CD4）"
+      ],
+      "dummyPool": [
+        "細胞傷害性T細胞",
+        "B細胞",
+        "NK細胞",
+        "好中球",
+        "マクロファージのみ",
+        "形質細胞",
+        "樹状細胞のみ"
+      ]
+    },
+    {
+      "uid": "uhg74bdaxodf",
+      "category": "感染症",
+      "type": "term",
+      "question": "梅毒の感染経路は何か",
+      "answerPool": [
+        "性行為感染"
+      ],
+      "dummyPool": [
+        "飛沫感染",
+        "空気感染",
+        "媒介物感染",
+        "経口感染",
+        "接触感染のみ",
+        "経皮感染のみ",
+        "血液感染のみ"
+      ]
+    },
+    {
+      "uid": "f37w2dg5z8o8",
+      "category": "感染症",
+      "type": "term",
+      "question": "病原体のうち細胞壁を有するのは何か",
+      "answerPool": [
+        "真菌",
+        "細菌"
+      ],
+      "dummyPool": [
+        "ウイルス",
+        "プリオン",
+        "リケッチアのみ",
+        "マイコプラズマのみ",
+        "原虫",
+        "寄生虫",
+        "クラミジアのみ"
+      ]
+    },
+    {
+      "uid": "abpvu73dwu1m",
+      "category": "感染症",
+      "type": "term",
+      "question": "病原体のうち核酸様式がDNAかRNAのみを有するのは何か",
+      "answerPool": [
+        "ウイルス"
+      ],
+      "dummyPool": [
+        "細菌",
+        "真菌",
+        "原虫",
+        "寄生虫",
+        "プリオン",
+        "リケッチア",
+        "マイコプラズマ"
+      ]
+    },
+    {
+      "uid": "4mn3m3yfp9xd",
+      "category": "感染症",
+      "type": "term",
+      "question": "病原体のうち原核生物なのは何か",
+      "answerPool": [
+        "細菌"
+      ],
+      "dummyPool": [
+        "ウイルス",
+        "真菌",
+        "原虫",
+        "寄生虫",
+        "プリオン",
+        "ヒト細胞",
+        "酵母"
+      ]
+    },
+    {
+      "uid": "izoxj91kfksj",
+      "category": "感染症",
+      "type": "term",
+      "question": "細菌のうち非定型細菌と呼ばれるものを3つ挙げよ",
+      "answerPool": [
+        "リケッチア",
+        "クラミジア",
+        "マイコプラズマ"
+      ],
+      "dummyPool": [
+        "黄色ブドウ球菌",
+        "大腸菌",
+        "結核菌",
+        "破傷風菌",
+        "淋菌",
+        "髄膜炎菌",
+        "肺炎球菌"
+      ]
+    },
+    {
+      "uid": "ic4m8s41vzvn",
+      "category": "感染症",
+      "type": "term",
+      "question": "風疹の病原体は細菌、真菌、ウイルス、寄生虫のうちどれか",
+      "answerPool": [
+        "ウイルス"
+      ],
+      "dummyPool": [
+        "細菌",
+        "真菌",
+        "寄生虫",
+        "原虫",
+        "プリオン",
+        "リケッチア",
+        "マイコプラズマ"
+      ]
+    },
+    {
+      "uid": "h6y31dfzx82r",
+      "category": "感染症",
+      "type": "term",
+      "question": "結核の病原体は細菌、真菌、ウイルス、寄生虫のうちどれか",
+      "answerPool": [
+        "細菌"
+      ],
+      "dummyPool": [
+        "ウイルス",
+        "真菌",
+        "寄生虫",
+        "原虫",
+        "プリオン",
+        "リケッチア",
+        "マイコプラズマ"
+      ]
+    },
+    {
+      "uid": "3fq549ntr7fb",
+      "category": "感染症",
+      "type": "term",
+      "question": "クリプトコッカス症の病原体は細菌、真菌、ウイルス、寄生虫のうちどれか",
+      "answerPool": [
+        "真菌"
+      ],
+      "dummyPool": [
+        "細菌",
+        "ウイルス",
+        "寄生虫",
+        "原虫",
+        "プリオン",
+        "リケッチア",
+        "マイコプラズマ"
+      ]
+    },
+    {
+      "uid": "15xzx0rdhs5r",
+      "category": "感染症",
+      "type": "term",
+      "question": "ニューモシスチス肺炎の病原体は細菌、真菌、ウイルス、寄生虫のうちどれか",
+      "answerPool": [
+        "真菌"
+      ],
+      "dummyPool": [
+        "細菌",
+        "ウイルス",
+        "寄生虫",
+        "原虫",
+        "プリオン",
+        "リケッチア",
+        "マイコプラズマ"
+      ]
+    },
+    {
+      "uid": "98ungvg63ubv",
+      "category": "感染症",
+      "type": "term",
+      "question": "帯状疱疹の原因は何か",
+      "answerPool": [
+        "ヘルペスウイルスの回帰感染"
+      ],
+      "dummyPool": [
+        "麻疹ウイルスの初感染",
+        "風疹ウイルスの初感染",
+        "水痘ウイルスの初感染",
+        "インフルエンザウイルス感染",
+        "EBウイルスの初感染",
+        "サイトメガロウイルスの初感染",
+        "HPV感染"
+      ]
+    },
+    {
+      "uid": "1w2zo6hen0tr",
+      "category": "感染症",
+      "type": "term",
+      "question": "結核は何類感染症か",
+      "answerPool": [
+        "2類"
+      ],
+      "dummyPool": [
+        "1類",
+        "3類",
+        "4類",
+        "5類",
+        "新型インフルエンザ等感染症",
+        "指定感染症",
+        "検疫感染症のみ"
+      ]
+    },
+    {
+      "uid": "x3eva4blu5dz",
+      "category": "感染症",
+      "type": "term",
+      "question": "AIDSは何類感染症か",
+      "answerPool": [
+        "5類"
+      ],
+      "dummyPool": [
+        "1類",
+        "2類",
+        "3類",
+        "4類",
+        "新型インフルエンザ等感染症",
+        "指定感染症",
+        "検疫感染症のみ"
+      ]
+    },
+    {
+      "uid": "t3wfq5siw0fr",
+      "category": "感染症",
+      "type": "term",
+      "question": "SARSは何類感染症か",
+      "answerPool": [
+        "2類"
+      ],
+      "dummyPool": [
+        "1類",
+        "3類",
+        "4類",
+        "5類",
+        "新型インフルエンザ等感染症",
+        "指定感染症",
+        "検疫感染症のみ"
+      ]
+    },
+    {
+      "uid": "qgpuho3vjv3v",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "移植片の生着はリンパ球と何の適合に依存するか",
+      "answerPool": [
+        "MHCの適合"
+      ],
+      "dummyPool": [
+        "ABO血液型の適合のみ",
+        "Rh血液型の適合のみ",
+        "HLA以外の適合",
+        "補体価の適合",
+        "白血球数の適合",
+        "抗体価の適合",
+        "サイトカインの適合"
+      ]
+    },
+    {
+      "uid": "tk7bku01965y",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "GVHDにおいて標的臓器となりやすいものを1つ挙げよ",
+      "answerPool": [
+        "肝臓",
+        "消化管",
+        "皮膚"
+      ],
+      "dummyPool": [
+        "腎臓",
+        "肺",
+        "脳",
+        "心臓",
+        "骨",
+        "膵臓",
+        "脾臓"
+      ]
+    },
+    {
+      "uid": "go9hrcxzwhnm",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "脂質異常症の評価となる3つの項目を挙げよ",
+      "answerPool": [
+        "LDL",
+        "HDL",
+        "トリグリセライド"
+      ],
+      "dummyPool": [
+        "AFP",
+        "CA19-9",
+        "PSA",
+        "CRP",
+        "HbA1c",
+        "尿酸値",
+        "クレアチニン"
+      ]
+    },
+    {
+      "uid": "htgj4orxheep",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "BMIを求める計算式とはどのような計算式か",
+      "answerPool": [
+        "体重（Kg）/身長（ｍ）/身長（ｍ）"
+      ],
+      "dummyPool": [
+        "体重(Kg)×身長(m)",
+        "身長(m)/体重(Kg)",
+        "体重(Kg)/身長(cm)",
+        "体重(Kg)+身長(m)",
+        "身長(m)×身長(m)/体重(Kg)",
+        "体重(Kg)/年齢",
+        "体重(Kg)×年齢/身長(m)"
+      ]
+    },
+    {
+      "uid": "nyucs2g23dlm",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "脂質異常症における薬剤はどのような薬剤か",
+      "answerPool": [
+        "スタチン系（HMG-CoA還元酵素阻害剤）"
+      ],
+      "dummyPool": [
+        "ビスホスホネート製剤",
+        "ACE阻害薬",
+        "Ca拮抗薬",
+        "β遮断薬",
+        "利尿薬",
+        "SGLT2阻害薬",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "rzzgerqwrxnn",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "骨粗鬆症とくる病を鑑別するための検査項目は何か",
+      "answerPool": [
+        "血中カルシウム濃度",
+        "血中リン濃度",
+        "血中アルカリホスファターゼ値"
+      ],
+      "dummyPool": [
+        "血中LDL値",
+        "血中尿酸値",
+        "血中HbA1c値",
+        "CRP",
+        "赤沈",
+        "白血球数",
+        "D-ダイマー"
+      ]
+    },
+    {
+      "uid": "xwxjedpiymju",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "骨粗鬆症における薬剤はどのような薬剤か",
+      "answerPool": [
+        "ビスホスホネート製剤（骨吸収抑制薬）"
+      ],
+      "dummyPool": [
+        "スタチン系",
+        "ACE阻害薬",
+        "Ca拮抗薬",
+        "β遮断薬",
+        "利尿薬",
+        "SGLT2阻害薬",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "gr35sycctlwu",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "ビタミンAの欠乏症を何というか",
+      "answerPool": [
+        "夜盲症"
+      ],
+      "dummyPool": [
+        "脚気",
+        "ペラグラ",
+        "壊血病",
+        "くる病",
+        "ウェルニッケ脳症",
+        "巨赤芽球性貧血",
+        "骨粗鬆症"
+      ]
+    },
+    {
+      "uid": "e3hqji17af38",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "脚気は何の欠乏症か",
+      "answerPool": [
+        "ビタミンB１（チアミン）"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB3（ナイアシン）",
+        "ビタミンC",
+        "ビタミンD",
+        "ビタミンK",
+        "ビタミンB12",
+        "葉酸"
+      ]
+    },
+    {
+      "uid": "dqtdyrjn8efv",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "ペラグラは何の欠乏症か",
+      "answerPool": [
+        "ビタミンB3（ナイアシン）"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB1（チアミン）",
+        "ビタミンC",
+        "ビタミンD",
+        "ビタミンK",
+        "ビタミンB12",
+        "葉酸"
+      ]
+    },
+    {
+      "uid": "ne344xtntoay",
+      "category": "遺伝子・染色体異常",
+      "type": "binary",
+      "question": "伴性潜性遺伝による疾患は男性、女性のどちらに多いか",
+      "answerPool": [
+        "男性"
+      ],
+      "dummyPool": [
+        "女性"
+      ]
+    },
+    {
+      "uid": "21cjbs7e7k2t",
+      "category": "遺伝子・染色体異常",
+      "type": "term",
+      "question": "ハンチントン病はどのような遺伝形式をとるか",
+      "answerPool": [
+        "常染色体顕性遺伝"
+      ],
+      "dummyPool": [
+        "常染色体潜性遺伝",
+        "伴性潜性遺伝",
+        "伴性顕性遺伝",
+        "ミトコンドリア遺伝",
+        "多因子遺伝",
+        "染色体異常",
+        "孤発性のみ"
+      ]
+    },
+    {
+      "uid": "7mibow0fnaea",
+      "category": "遺伝子・染色体異常",
+      "type": "term",
+      "question": "血友病はどのような遺伝形式をとるか",
+      "answerPool": [
+        "伴性潜性遺伝"
+      ],
+      "dummyPool": [
+        "常染色体顕性遺伝",
+        "常染色体潜性遺伝",
+        "伴性顕性遺伝",
+        "ミトコンドリア遺伝",
+        "多因子遺伝",
+        "染色体異常",
+        "孤発性のみ"
+      ]
+    },
+    {
+      "uid": "4wts5gux0chp",
+      "category": "遺伝子・染色体異常",
+      "type": "term",
+      "question": "ダウン症候群ではどのような染色体異常がみられるか",
+      "answerPool": [
+        "21トリソミー"
+      ],
+      "dummyPool": [
+        "18トリソミー",
+        "13トリソミー",
+        "ターナー症候群（モノソミーX）",
+        "クラインフェルター症候群",
+        "5p欠失症候群",
+        "転座型のみ",
+        "モザイク型のみ"
+      ]
+    },
+    {
+      "uid": "z53ew2g6ul8m",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "アミロイドと呼ばれるタンパクが全身の臓器に沈着する代謝障害を何というか",
+      "answerPool": [
+        "アミロイドーシス"
+      ],
+      "dummyPool": [
+        "Wilson病",
+        "ヘモクロマトーシス",
+        "ポルフィリン症",
+        "糖原病",
+        "ゴーシェ病",
+        "ニーマン・ピック病",
+        "痛風"
+      ]
+    },
+    {
+      "uid": "si0wnjdeybo1",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "痛風発作の好発部位はどこか",
+      "answerPool": [
+        "下肢関節（特に、第1中足趾節関節）"
+      ],
+      "dummyPool": [
+        "膝関節",
+        "股関節",
+        "肩関節",
+        "手指の関節",
+        "肘関節",
+        "腰椎",
+        "頚椎"
+      ]
+    },
+    {
+      "uid": "5ien16gp8ufl",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "高尿酸血症の血清尿酸値はいくつ以上か",
+      "answerPool": [
+        "7.0mg/dL"
+      ],
+      "dummyPool": [
+        "5.0mg/dL",
+        "6.0mg/dL",
+        "8.0mg/dL",
+        "9.0mg/dL",
+        "10.0mg/dL",
+        "4.0mg/dL",
+        "6.5mg/dL"
+      ]
+    },
+    {
+      "uid": "k09xfbv3lumm",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "偽痛風の原因物質は何か",
+      "answerPool": [
+        "ピロリン酸カルシウム"
+      ],
+      "dummyPool": [
+        "尿酸塩(尿酸Na)",
+        "シュウ酸カルシウム",
+        "リン酸カルシウム",
+        "コレステロール結晶",
+        "アミロイド",
+        "ヘモジデリン",
+        "炭酸カルシウム"
+      ]
+    },
+    {
+      "uid": "fuank39ilect",
+      "category": "代謝障害",
+      "type": "binary",
+      "question": "偽痛風の好発部位はどこか",
+      "answerPool": [
+        "膝関節"
+      ],
+      "dummyPool": [
+        "足の親指の付け根(第一中足趾節関節)"
+      ]
+    },
+    {
+      "uid": "fshnwys2b6x7",
+      "category": "遺伝子・染色体異常",
+      "type": "binary",
+      "question": "血友病に罹患しやすいのは男性か、女性か",
+      "answerPool": [
+        "男性"
+      ],
+      "dummyPool": [
+        "女性"
+      ]
+    },
+    {
+      "uid": "fxtphtgifvs0",
+      "category": "循環障害",
+      "type": "term",
+      "question": "凝固因子第Ⅷ因子の活性低下による血友病を何というか",
+      "answerPool": [
+        "血友病A"
+      ],
+      "dummyPool": [
+        "血友病B",
+        "フォン・ヴィレブランド病",
+        "血小板無力症",
+        "DIC",
+        "紫斑病",
+        "第Ⅸ因子欠乏症",
+        "第Ⅻ因子欠乏症"
+      ]
+    },
+    {
+      "uid": "ep1z1fcx0r2r",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血友病Bではどの凝固因子の活性低下を認めるか",
+      "answerPool": [
+        "第Ⅸ因子"
+      ],
+      "dummyPool": [
+        "第Ⅷ因子",
+        "第Ⅴ因子",
+        "第Ⅶ因子",
+        "第Ⅹ因子",
+        "第Ⅺ因子",
+        "第Ⅻ因子",
+        "第Ⅱ因子"
+      ]
+    },
+    {
+      "uid": "o65xnnwue5zt",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血友病では血小板の数や機能はどう変化するか",
+      "answerPool": [
+        "変化しない（正常）"
+      ],
+      "dummyPool": [
+        "数が減少する",
+        "数が増加する",
+        "機能が低下する",
+        "機能が亢進する",
+        "数も機能も低下する",
+        "凝集能が亢進する",
+        "形態が異常になる"
+      ]
+    },
+    {
+      "uid": "9aekhnkbys4k",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "くる病や骨軟化症は何の欠乏症か",
+      "answerPool": [
+        "ビタミンD"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB1",
+        "ビタミンB3",
+        "ビタミンC",
+        "ビタミンK",
+        "ビタミンB12",
+        "葉酸"
+      ]
+    },
+    {
+      "uid": "gitt0wsfmti5",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "ウェルニッケ脳症は何の欠乏症か",
+      "answerPool": [
+        "ビタミンB１（チアミン）"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB3",
+        "ビタミンC",
+        "ビタミンD",
+        "ビタミンK",
+        "ビタミンB12",
+        "葉酸"
+      ]
+    },
+    {
+      "uid": "sorq3roxv43r",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "巨赤芽球性貧血は何の欠乏症か",
+      "answerPool": [
+        "ビタミンB12（コバラミン）",
+        "葉酸"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB1",
+        "ビタミンB3",
+        "ビタミンC",
+        "ビタミンD",
+        "ビタミンK",
+        "鉄"
+      ]
+    },
+    {
+      "uid": "raz5bnmigffk",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "壊血病は何の欠乏症か",
+      "answerPool": [
+        "ビタミンC（アスコルビン酸）"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB1",
+        "ビタミンB3",
+        "ビタミンD",
+        "ビタミンK",
+        "ビタミンB12",
+        "葉酸"
+      ]
+    },
+    {
+      "uid": "62em28h47ojp",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "欠乏すると血液凝固障害が生じるビタミンは何か",
+      "answerPool": [
+        "ビタミンK"
+      ],
+      "dummyPool": [
+        "ビタミンA",
+        "ビタミンB1",
+        "ビタミンB3",
+        "ビタミンC",
+        "ビタミンD",
+        "ビタミンB12",
+        "葉酸"
+      ]
+    },
+    {
+      "uid": "4oprhs6hn2ki",
+      "category": "代謝障害",
+      "type": "binary",
+      "question": "メタボリックシンドロームの診断基準に含まれるのは、HDLコレステロールか、LDLコレステロールか",
+      "answerPool": [
+        "HDL"
+      ],
+      "dummyPool": [
+        "LDL"
+      ]
+    },
+    {
+      "uid": "k60assait4sk",
+      "category": "代謝障害",
+      "type": "binary",
+      "question": "メタボリックシンドロームの診断基準に含まれるのは、内臓脂肪型肥満か、皮下脂肪型肥満か",
+      "answerPool": [
+        "内臓脂肪型肥満"
+      ],
+      "dummyPool": [
+        "皮下脂肪型肥満"
+      ]
+    },
+    {
+      "uid": "2pf3hu9s4hv1",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "関節リウマチにみられる自己抗体を何というか",
+      "answerPool": [
+        "リウマトイド因子"
+      ],
+      "dummyPool": [
+        "抗核抗体",
+        "抗TSH受容体抗体",
+        "抗アセチルコリン受容体抗体",
+        "抗ミトコンドリア抗体",
+        "抗甲状腺抗体",
+        "抗DNA抗体",
+        "抗好中球細胞質抗体"
+      ]
+    },
+    {
+      "uid": "61t2rbktdr7a",
+      "category": "免疫異常",
+      "type": "binary",
+      "question": "関節リウマチは小関節と大関節とどちらに好発するか",
+      "answerPool": [
+        "小関節"
+      ],
+      "dummyPool": [
+        "大関節"
+      ]
+    },
+    {
+      "uid": "ab5tk09ban8b",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "全身性エリテマトーデスの好発年齢はどれくらいか",
+      "answerPool": [
+        "若年"
+      ],
+      "dummyPool": [
+        "小児",
+        "中年",
+        "高齢者",
+        "新生児",
+        "思春期前",
+        "更年期以降のみ",
+        "老年期のみ"
+      ]
+    },
+    {
+      "uid": "y5sf4e6s9k34",
+      "category": "免疫異常",
+      "type": "binary",
+      "question": "全身性エリテマトーデスは男性と女性とどちらに好発するか",
+      "answerPool": [
+        "女性"
+      ],
+      "dummyPool": [
+        "男性"
+      ]
+    },
+    {
+      "uid": "k8if2gr291xx",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "全身性エリテマトーデスで認める特徴的な赤い湿疹を何というか",
+      "answerPool": [
+        "蝶形紅斑"
+      ],
+      "dummyPool": [
+        "環状紅斑",
+        "結節性紅斑",
+        "紅皮症",
+        "麻疹様紅斑",
+        "ヘリオトロープ疹",
+        "ゴットロン徴候",
+        "乾癬"
+      ]
+    },
+    {
+      "uid": "qglb09ue4evc",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "気管支喘息で特徴的に認める主な免疫グロブリンは何か",
+      "answerPool": [
+        "IgE"
+      ],
+      "dummyPool": [
+        "IgG",
+        "IgA",
+        "IgM",
+        "IgD",
+        "補体",
+        "アルブミン",
+        "リウマトイド因子"
+      ]
+    },
+    {
+      "uid": "0ugp5xlclgrc",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "気管支喘息で特徴的に認める主なサイトカインは何か",
+      "answerPool": [
+        "ヒスタミン"
+      ],
+      "dummyPool": [
+        "インターフェロン",
+        "TNF-α",
+        "IL-6",
+        "IL-1",
+        "補体",
+        "フィブリン",
+        "プラスミン"
+      ]
+    },
+    {
+      "uid": "llh1bynlh8el",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "VHLがん遺伝子か、がん抑制遺伝子か",
+      "answerPool": [
+        "癌抑制遺伝子"
+      ],
+      "dummyPool": [
+        "癌遺伝子"
+      ]
+    },
+    {
+      "uid": "u6jblmopr47z",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "別の種類の細胞組織に変化する現象を何というか",
+      "answerPool": [
+        "化生"
+      ],
+      "dummyPool": [
+        "過形成",
+        "肥大",
+        "萎縮",
+        "異形成",
+        "退形成",
+        "腫瘍",
+        "再生"
+      ]
+    },
+    {
+      "uid": "dpf4l6frjj0q",
+      "category": "代謝障害",
+      "type": "binary",
+      "question": "メタボリックシンドロームの診断基準に含まれるのは\n　HDLコレステロールか、LDLコレステロールか",
+      "answerPool": [
+        "HDL"
+      ],
+      "dummyPool": [
+        "LDL"
+      ]
+    },
+    {
+      "uid": "mptloh6wgf2l",
+      "category": "代謝障害",
+      "type": "binary",
+      "question": "メタボリックシンドロームの診断基準に含まれるのは\n　内臓脂肪型肥満か、皮下脂肪型肥満か",
+      "answerPool": [
+        "内臓脂肪型肥満"
+      ],
+      "dummyPool": [
+        "皮下脂肪型肥満"
       ]
     }
   ]
