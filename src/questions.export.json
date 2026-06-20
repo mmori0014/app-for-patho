@@ -1,5 +1,5 @@
 {
-  "exportVersion": 8,
+  "exportVersion": 9,
   "questions": [
     {
       "uid": "y958we61inng",
@@ -6191,6 +6191,570 @@
         "痛風",
         "Wilson病",
         "ヘモクロマトーシス"
+      ]
+    },
+    {
+      "uid": "6xdluu35g1e9",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "肺がん・頭頚部がん・膠芽腫で異常を認めるがん遺伝子は何か",
+      "answerPool": [
+        "EGFR"
+      ],
+      "dummyPool": [
+        "RAS",
+        "ALK融合遺伝子",
+        "BCR-ABL融合遺伝子",
+        "RB1",
+        "APC",
+        "PTEN",
+        "VHL"
+      ]
+    },
+    {
+      "uid": "n4stbmpsjrjy",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "乳がん・胃がんで異常を認めるがん遺伝子は何か",
+      "answerPool": [
+        "ERBB2(HER2)"
+      ],
+      "dummyPool": [
+        "EGFR",
+        "RAS",
+        "ALK融合遺伝子",
+        "BCR-ABL融合遺伝子",
+        "RB1",
+        "APC",
+        "WT1"
+      ]
+    },
+    {
+      "uid": "cfj9aa5n56ig",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "膵がん・大腸がん・肺がんで異常を認めるがん遺伝子は何か",
+      "answerPool": [
+        "RAS"
+      ],
+      "dummyPool": [
+        "EGFR",
+        "ERBB2(HER2)",
+        "ALK融合遺伝子",
+        "BCR-ABL融合遺伝子",
+        "RB1",
+        "APC",
+        "PTEN"
+      ]
+    },
+    {
+      "uid": "vlzogh59dnrh",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "慢性骨髄性白血病で認められるがん遺伝子は何か",
+      "answerPool": [
+        "BCR-ABL融合遺伝子"
+      ],
+      "dummyPool": [
+        "EGFR",
+        "RAS",
+        "ALK融合遺伝子",
+        "RB1",
+        "APC",
+        "PTEN",
+        "WT1"
+      ]
+    },
+    {
+      "uid": "9dnnnsyxp396",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "網膜芽腫・骨肉腫で異常を認める癌抑制遺伝子は何か",
+      "answerPool": [
+        "RB1"
+      ],
+      "dummyPool": [
+        "APC",
+        "PTEN",
+        "BRCA1/2",
+        "VHL",
+        "WT1",
+        "TP53",
+        "p16(INK4A)"
+      ]
+    },
+    {
+      "uid": "zb99dhiv31t8",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "大腸がんで異常を認める癌抑制遺伝子は何か",
+      "answerPool": [
+        "APC"
+      ],
+      "dummyPool": [
+        "RB1",
+        "PTEN",
+        "BRCA1/2",
+        "VHL",
+        "WT1",
+        "TP53",
+        "p16(INK4A)"
+      ]
+    },
+    {
+      "uid": "ftdufnwr0ldm",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "腎がんで異常を認める癌抑制遺伝子は何か",
+      "answerPool": [
+        "VHL"
+      ],
+      "dummyPool": [
+        "RB1",
+        "APC",
+        "PTEN",
+        "BRCA1/2",
+        "WT1",
+        "TP53",
+        "p16(INK4A)"
+      ]
+    },
+    {
+      "uid": "bxpadpu2nr2v",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "ウィルムス腫瘍で異常を認める癌抑制遺伝子は何か",
+      "answerPool": [
+        "WT1"
+      ],
+      "dummyPool": [
+        "RB1",
+        "APC",
+        "PTEN",
+        "BRCA1/2",
+        "VHL",
+        "TP53",
+        "p16(INK4A)"
+      ]
+    },
+    {
+      "uid": "z00ptl1mjhge",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "膠芽腫・子宮体がんで異常を認める癌抑制遺伝子は何か",
+      "answerPool": [
+        "PTEN"
+      ],
+      "dummyPool": [
+        "RB1",
+        "APC",
+        "BRCA1/2",
+        "VHL",
+        "WT1",
+        "TP53",
+        "p16(INK4A)"
+      ]
+    },
+    {
+      "uid": "ojbj51rzit4q",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "乳がん・卵巣がん・前立腺がんで異常を認める癌抑制遺伝子は何か",
+      "answerPool": [
+        "BRCA1/2"
+      ],
+      "dummyPool": [
+        "RB1",
+        "APC",
+        "PTEN",
+        "VHL",
+        "WT1",
+        "TP53",
+        "p16(INK4A)"
+      ]
+    },
+    {
+      "uid": "gapn1sbpu2h8",
+      "category": "腫瘍",
+      "type": "binary",
+      "question": "遺伝性乳癌卵巣癌症候群(HBOC)はどのような遺伝形式をとるか",
+      "answerPool": [
+        "常染色体優性遺伝"
+      ],
+      "dummyPool": [
+        "常染色体劣性遺伝"
+      ]
+    },
+    {
+      "uid": "90tuzskkgwu1",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "17番染色体短腕に位置し、過剰発現すると乳癌の予後不良因子となる遺伝子は何か",
+      "answerPool": [
+        "HER2(C-erbB2)"
+      ],
+      "dummyPool": [
+        "EGFR",
+        "RAS",
+        "ALK融合遺伝子",
+        "BCR-ABL融合遺伝子",
+        "RB1",
+        "APC",
+        "BRCA1"
+      ]
+    },
+    {
+      "uid": "brexgqolhxgj",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "HER2に対する分子標的薬(モノクローナル抗体)は何か",
+      "answerPool": [
+        "ハーセプチン(トラスツズマブ)"
+      ],
+      "dummyPool": [
+        "イマチニブ",
+        "タモキシフェン",
+        "ゲフィチニブ",
+        "リツキシマブ",
+        "ベバシズマブ",
+        "ソラフェニブ",
+        "エルロチニブ"
+      ]
+    },
+    {
+      "uid": "gicam06hybls",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "慢性骨髄性白血病の原因となる、9番染色体と22番染色体の相互転座によって生じる異常染色体を何というか",
+      "answerPool": [
+        "Ph染色体(フィラデルフィア染色体)"
+      ],
+      "dummyPool": [
+        "21トリソミー",
+        "ターナー症候群の染色体",
+        "クラインフェルター症候群の染色体",
+        "環状染色体",
+        "モザイク染色体",
+        "等腕染色体",
+        "XYY症候群の染色体"
+      ]
+    },
+    {
+      "uid": "g434t7viljh1",
+      "category": "腫瘍",
+      "type": "term",
+      "question": "遺伝子変異が段階的に蓄積することでがん化が進行するという説を何というか",
+      "answerPool": [
+        "多段階発癌説"
+      ],
+      "dummyPool": [
+        "体細胞突然変異説のみ",
+        "ウイルス発癌説のみ",
+        "一段階発癌説",
+        "化学発癌説のみ",
+        "放射線発癌説のみ",
+        "炎症発癌説のみ",
+        "幹細胞起源説のみ"
+      ]
+    },
+    {
+      "uid": "2wa7whqcezmv",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "遺伝子密度が低く、強く折り畳まれているクロマチン領域を何というか",
+      "answerPool": [
+        "ヘテロクロマチン"
+      ],
+      "dummyPool": [
+        "ユークロマチン",
+        "セントロメア",
+        "テロメア",
+        "ヒストン",
+        "ヌクレオソーム",
+        "スプライソソーム",
+        "リボソーム"
+      ]
+    },
+    {
+      "uid": "2rf65c1599ac",
+      "category": "細胞・組織傷害",
+      "type": "term",
+      "question": "遺伝子の転写が活発で、比較的緩んでいるクロマチン領域を何というか",
+      "answerPool": [
+        "ユークロマチン"
+      ],
+      "dummyPool": [
+        "ヘテロクロマチン",
+        "セントロメア",
+        "テロメア",
+        "ヒストン",
+        "ヌクレオソーム",
+        "スプライソソーム",
+        "リボソーム"
+      ]
+    },
+    {
+      "uid": "5u6yyhz1rtg0",
+      "category": "循環障害",
+      "type": "term",
+      "question": "血管平滑筋細胞内へのカルシウムイオン流入を抑制し、血管拡張作用をもたらす降圧薬は何か",
+      "answerPool": [
+        "Ca拮抗薬"
+      ],
+      "dummyPool": [
+        "ACE阻害薬",
+        "ARB",
+        "利尿薬",
+        "β遮断薬",
+        "硝酸薬",
+        "スタチン系",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "pxpmp42kenbl",
+      "category": "循環障害",
+      "type": "term",
+      "question": "アンジオテンシンⅡのタイプ1受容体に結合し、その作用を阻害する降圧薬は何か",
+      "answerPool": [
+        "ARB(アンジオテンシンⅡ受容体拮抗薬)"
+      ],
+      "dummyPool": [
+        "Ca拮抗薬",
+        "ACE阻害薬",
+        "利尿薬",
+        "β遮断薬",
+        "硝酸薬",
+        "スタチン系",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "pybhx9du4i6o",
+      "category": "循環障害",
+      "type": "term",
+      "question": "アンジオテンシン変換酵素を阻害し、アンジオテンシンⅡの産生を抑える降圧薬は何か",
+      "answerPool": [
+        "ACE阻害薬"
+      ],
+      "dummyPool": [
+        "Ca拮抗薬",
+        "ARB",
+        "利尿薬",
+        "β遮断薬",
+        "硝酸薬",
+        "スタチン系",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "gieqw7kerfv7",
+      "category": "循環障害",
+      "type": "term",
+      "question": "腎尿細管でのナトリウム再吸収を抑制し、循環血液量を減少させる降圧薬は何か",
+      "answerPool": [
+        "利尿薬"
+      ],
+      "dummyPool": [
+        "Ca拮抗薬",
+        "ACE阻害薬",
+        "ARB",
+        "β遮断薬",
+        "硝酸薬",
+        "スタチン系",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "jtp3ighx876z",
+      "category": "循環障害",
+      "type": "term",
+      "question": "β1受容体を遮断し、心拍出量の低下やレニン産生抑制により降圧する薬剤は何か",
+      "answerPool": [
+        "β遮断薬"
+      ],
+      "dummyPool": [
+        "Ca拮抗薬",
+        "ACE阻害薬",
+        "ARB",
+        "利尿薬",
+        "硝酸薬",
+        "スタチン系",
+        "抗凝固薬"
+      ]
+    },
+    {
+      "uid": "9tgq5afhwp70",
+      "category": "代謝障害",
+      "type": "term",
+      "question": "インスリン前駆体であるプロインスリンから、インスリンと共に同じ分子数産生される、糖尿病の評価に用いられる物質は何か",
+      "answerPool": [
+        "Cペプチド(CPR)"
+      ],
+      "dummyPool": [
+        "HbA1c",
+        "グルカゴン",
+        "アディポネクチン",
+        "レプチン",
+        "ケトン体",
+        "アルブミン",
+        "クレアチニン"
+      ]
+    },
+    {
+      "uid": "1fyf13j04br7",
+      "category": "代謝障害",
+      "type": "binary",
+      "question": "糖尿病ケトアシドーシスでは、血中・尿中のケトン体は高値か低値か",
+      "answerPool": [
+        "高値"
+      ],
+      "dummyPool": [
+        "低値"
+      ]
+    },
+    {
+      "uid": "wizn5qf2gox0",
+      "category": "感染症",
+      "type": "term",
+      "question": "真菌によって引き起こされる肺の感染症の総称を何というか",
+      "answerPool": [
+        "肺真菌症"
+      ],
+      "dummyPool": [
+        "肺結核",
+        "間質性肺炎",
+        "細菌性肺炎",
+        "サルコイドーシス",
+        "肺がん",
+        "気管支喘息",
+        "肺線維症"
+      ]
+    },
+    {
+      "uid": "w7smh8yqg421",
+      "category": "感染症",
+      "type": "term",
+      "question": "肺結核などによる器質的な遺残空洞にアスペルギルス菌糸が侵入・増殖し、真菌球(fungus ball)を形成する病態を何というか",
+      "answerPool": [
+        "慢性肺アスペルギルス症(肺アスペルギローマ)"
+      ],
+      "dummyPool": [
+        "侵襲性肺アスペルギルス症",
+        "肺クリプトコッカス症",
+        "ニューモシスチス肺炎",
+        "肺カンジダ症",
+        "肺ムーコル症",
+        "気管支拡張症",
+        "肺化膿症"
+      ]
+    },
+    {
+      "uid": "mm0lh82chpjp",
+      "category": "感染症",
+      "type": "term",
+      "question": "免疫機能低下宿主に日和見感染症として発症し、血管侵襲により肺組織の壊死や梗塞を引き起こす予後不良な疾患を何というか",
+      "answerPool": [
+        "侵襲性肺アスペルギルス症"
+      ],
+      "dummyPool": [
+        "慢性肺アスペルギルス症",
+        "肺クリプトコッカス症",
+        "ニューモシスチス肺炎",
+        "肺カンジダ症",
+        "肺ムーコル症",
+        "細菌性肺炎",
+        "肺結核"
+      ]
+    },
+    {
+      "uid": "17w0tuw1q75x",
+      "category": "感染症",
+      "type": "term",
+      "question": "細菌感染による肺の化膿性炎症で、強い咳嗽と膿性喀痰を特徴とするものを何というか",
+      "answerPool": [
+        "細菌性肺炎"
+      ],
+      "dummyPool": [
+        "ウイルス性肺炎",
+        "間質性肺炎",
+        "肺真菌症",
+        "肺結核",
+        "サルコイドーシス",
+        "気管支喘息",
+        "肺線維症"
+      ]
+    },
+    {
+      "uid": "z3psa7ifav39",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "原因不明の全身性非乳酪性肉芽腫性疾患で、両側肺門リンパ節腫脹(BHL)を特徴とする疾患を何というか",
+      "answerPool": [
+        "サルコイドーシス"
+      ],
+      "dummyPool": [
+        "結核",
+        "肺アスペルギルス症",
+        "気管支喘息",
+        "間質性肺炎",
+        "肺がん",
+        "クリプトコッカス症",
+        "COPD"
+      ]
+    },
+    {
+      "uid": "3v4e3adhg5yp",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "サルコイドーシスの肉芽腫形成に関与するとされるアレルギーの型は何か",
+      "answerPool": [
+        "Ⅳ型アレルギー"
+      ],
+      "dummyPool": [
+        "Ⅰ型アレルギー",
+        "Ⅱ型アレルギー",
+        "Ⅲ型アレルギー",
+        "Ⅴ型アレルギー",
+        "即時型アレルギー",
+        "液性免疫型のみ",
+        "補体依存型のみ"
+      ]
+    },
+    {
+      "uid": "kpycysalzxnb",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "慢性の気道炎症・気道過敏性の亢進・可逆性の気道閉塞を特徴とする疾患を何というか",
+      "answerPool": [
+        "気管支喘息"
+      ],
+      "dummyPool": [
+        "COPD",
+        "間質性肺炎",
+        "肺結核",
+        "サルコイドーシス",
+        "肺気腫",
+        "気管支拡張症",
+        "肺線維症"
+      ]
+    },
+    {
+      "uid": "cds8hay4tdye",
+      "category": "免疫異常",
+      "type": "term",
+      "question": "気管支喘息において、慢性炎症により気道が不完全・不可逆的に修復される現象を何というか",
+      "answerPool": [
+        "気道リモデリング"
+      ],
+      "dummyPool": [
+        "気道過敏性",
+        "気道閉塞のみ",
+        "気管支拡張",
+        "線毛運動障害",
+        "粘液線毛クリアランス低下",
+        "気管支攣縮のみ",
+        "気胸"
       ]
     }
   ]
