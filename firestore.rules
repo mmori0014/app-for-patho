@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 学生からの問題報告:新規作成のみ許可。読み取り・更新・削除は不可(Firebaseコンソールで閲覧)
+    match /reports/{id} {
+      allow create: if request.resource.data.keys().hasOnly(
+                         ['app','uid','exportVersion','category','question','choices',
+                          'answer','selected','isCorrect','comment','createdAt'])
+                    && (!('app' in request.resource.data) || request.resource.data.app in ['patho','internal','anatomy'])
+                    && request.resource.data.uid is string
+                    && request.resource.data.uid.size() <= 64
+                    && request.resource.data.question is string
+                    && request.resource.data.question.size() <= 1000
+                    && request.resource.data.choices is list
+                    && request.resource.data.choices.size() <= 6
+                    && request.resource.data.comment is string
+                    && request.resource.data.comment.size() <= 1000
+                    && request.resource.data.createdAt is timestamp
+                    && request.resource.data.createdAt < request.time + duration.value(5, 'm');
+      allow read, update, delete: if false;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

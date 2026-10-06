@@ -15,6 +15,34 @@ const EXPORT_VERSION_KEY = "patho-export-version-v1";
 
 const EXPORT_VERSION = String(QUESTIONS_EXPORT?.exportVersion ?? "0");
 
+/** ========================= 問題報告(Firestore REST) ========================= */
+const FIREBASE_PROJECT_ID = "apprication-pathology";
+const REPORT_ENDPOINT = `https://firestore.googleapis.com/v1/projects/${FIREBASE_PROJECT_ID}/databases/(default)/documents/reports`;
+
+async function sendReport(r) {
+  const str = (v) => ({ stringValue: String(v ?? "") });
+  const body = {
+    fields: {
+      uid: str(r.uid),
+      exportVersion: str(r.exportVersion),
+      category: str(r.category),
+      question: str(r.question),
+      choices: { arrayValue: { values: r.choices.map(str) } },
+      answer: str(r.answer),
+      selected: str(r.selected),
+      isCorrect: { booleanValue: !!r.isCorrect },
+      comment: str(r.comment),
+      createdAt: { timestampValue: new Date().toISOString() },
+    },
+  };
+  const res = await fetch(REPORT_ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`report failed: ${res.status}`);
+}
+
 /** ========================= Helpers ========================= */
 function genUid() {
   return Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 10);
@@ -298,6 +326,41 @@ export default function App() {
     });
   };
 
+  /** ===== 問題報告 ===== */
+  const [report, setReport] = useState(null); // {snapshot, comment, status}
+  const [reportedUids, setReportedUids] = useState(() => new Set());
+
+  const openReport = () => {
+    if (!activeQuestion || !showResult) return;
+    setReport({
+      snapshot: {
+        uid: activeQuestion.uid,
+        exportVersion: EXPORT_VERSION,
+        category: activeQuestion.category,
+        question: activeQuestion.question,
+        choices: [...presentedChoices],
+        answer: presentedAnswer,
+        selected: selectedChoice,
+        isCorrect: selectedChoice === presentedAnswer,
+      },
+      comment: "",
+      status: "idle",
+    });
+  };
+
+  const submitReport = async () => {
+    if (!report || report.status === "sending") return;
+    setReport((r) => ({ ...r, status: "sending" }));
+    try {
+      await sendReport({ ...report.snapshot, comment: report.comment.trim().slice(0, 1000) });
+      setReportedUids((s) => new Set(s).add(report.snapshot.uid));
+      setReport((r) => (r ? { ...r, status: "done" } : r));
+    } catch (e) {
+      console.error(e);
+      setReport((r) => (r ? { ...r, status: "error" } : r));
+    }
+  };
+
   const resetScoreOnly = () => {
     setScore(0);
     setRound(1);
@@ -561,6 +624,22 @@ export default function App() {
                           : `❌ 不正解(正解:${presentedAnswer})`}
                       </div>
                     )}
+
+                    {showResult && (
+                      <div style={{ marginTop: 10, textAlign: "right" }}>
+                        {reportedUids.has(activeQuestion.uid) ? (
+                          <span style={{ fontSize: 12, color: "#94a3b8" }}>報告済み</span>
+                        ) : (
+                          <button
+                            type="button"
+                            onClick={openReport}
+                            style={{ ...btn(false), padding: "6px 10px", fontSize: 12, fontWeight: 700, color: "#cbd5e1" }}
+                          >
+                            ⚑ この問題を報告
+                          </button>
+                        )}
+                      </div>
+                    )}
                   </>
                 )}
               </section>
@@ -651,6 +730,66 @@ export default function App() {
             )}
           </aside>
         </div>
+
+        {report && (
+          <div
+            style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.55)", display: "grid", placeItems: "center", padding: 12, zIndex: 60 }}
+            onMouseDown={() => report.status !== "sending" && setReport(null)}
+          >
+            <div
+              style={{ width: "min(560px, 100%)", boxSizing: "border-box", maxHeight: "90vh", overflow: "auto", borderRadius: 18, border: "1px solid #22314a", background: "#0b1220", padding: 16, display: "grid", gap: 12, textAlign: "left" }}
+              onMouseDown={(e) => e.stopPropagation()}
+            >
+              <div style={{ fontWeight: 900, fontSize: 16 }}>この問題を報告</div>
+
+              {report.status === "done" ? (
+                <>
+                  <div style={{ color: "#34d399", fontWeight: 800 }}>✅ 送信しました。ご協力ありがとうございます。</div>
+                  <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                    <button style={btn(true)} onClick={() => setReport(null)} type="button">閉じる</button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div style={{ border: "1px solid #22314a", borderRadius: 12, padding: 10, fontSize: 13, display: "grid", gap: 6 }}>
+                    <div style={{ color: "#94a3b8", fontSize: 12 }}>
+                      {report.snapshot.category} / 問題ID: {report.snapshot.uid} / v{report.snapshot.exportVersion}
+                    </div>
+                    <div style={{ fontWeight: 800, whiteSpace: "pre-wrap" }}>{report.snapshot.question}</div>
+                    <ul style={{ margin: 0, paddingLeft: 18, color: "#cbd5e1" }}>
+                      {report.snapshot.choices.map((c, i) => (
+                        <li key={i}>
+                          {c}
+                          {c === report.snapshot.answer && <span style={{ color: "#34d399" }}> (正解)</span>}
+                          {c === report.snapshot.selected && <span style={{ color: "#fbbf24" }}> ← あなたの回答</span>}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div style={{ fontSize: 12, color: "#94a3b8" }}>上の問題情報は自動で送信されます。</div>
+                  <textarea
+                    value={report.comment}
+                    onChange={(e) => setReport((r) => ({ ...r, comment: e.target.value }))}
+                    placeholder="気になった点(任意):正解がおかしい、選択肢に正解が2つある、問題文がわかりにくい など"
+                    maxLength={1000}
+                    style={{ ...inputStyle, minHeight: 100, fontWeight: 500 }}
+                  />
+                  {report.status === "error" && (
+                    <div style={{ color: "#fb7185", fontSize: 13, fontWeight: 800 }}>
+                      ❌ 送信できませんでした。通信状況を確認して、もう一度お試しください。
+                    </div>
+                  )}
+                  <div style={{ display: "flex", gap: 10, justifyContent: "flex-end" }}>
+                    <button style={btn(false)} onClick={() => setReport(null)} disabled={report.status === "sending"} type="button">キャンセル</button>
+                    <button style={btn(true)} onClick={submitReport} disabled={report.status === "sending"} type="button">
+                      {report.status === "sending" ? "送信中…" : "送信"}
+                    </button>
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
+        )}
 
         {isAdmin && draft && (
           <div
