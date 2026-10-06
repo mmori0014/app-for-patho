@@ -1,5 +1,5 @@
 {
-  "exportVersion": 42,
+  "exportVersion": 43,
   "questions": [
     {
       "uid": "y958we61inng",
@@ -5111,7 +5111,7 @@
       "uid": "90tuzskkgwu1",
       "category": "腫瘍",
       "type": "term",
-      "question": "17番染色体短腕に位置し、過剰発現すると乳癌の予後不良因子となる遺伝子は何か",
+      "question": "17番染色体長腕に位置し、過剰発現すると乳癌の予後不良因子となる遺伝子は何か",
       "answerPool": [
         "HER2",
         "C-erbB2"
@@ -11811,8 +11811,8 @@
       "type": "term",
       "question": "線溶系異常による出血性素因の疾患を1つ挙げよ",
       "answerPool": [
-        "プラスミノゲン欠乏症",
-        "播種性血管内凝固症候群"
+        "播種性血管内凝固症候群",
+        "肝硬変"
       ],
       "dummyPool": [
         "特発性血小板減少性紫斑病",
