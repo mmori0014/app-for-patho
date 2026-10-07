@@ -3,7 +3,14 @@ import { registerSW } from "virtual:pwa-register";
 import QUESTIONS_EXPORT from "./questions.export.json";
 
 /** ========================= Storage keys ========================= */
-const ADMIN_KEY = "0014";
+// 管理者パスはソースに書かない。.env.local の VITE_ADMIN_HASH（パスのSHA-256）と照合する。
+// 設定: node scripts/set-admin-pass.mjs "新しいパス"
+const ADMIN_HASH = String(import.meta.env.VITE_ADMIN_HASH || "").trim().toLowerCase();
+const ADMIN_OK_KEY = "patho-admin-ok";
+async function sha256Hex(text) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, "0")).join("");
+}
 const QUESTIONS_KEY = "patho-questions-v1";
 const SEEDED_KEY = "patho-seeded-v1";
 const WRONG_KEY = "patho-wrong-v1";
@@ -156,16 +163,40 @@ export default function App() {
     } catch {}
   }, []);
 
-  const [adminPass, setAdminPass] = useState(
-    () => localStorage.getItem("patho-admin-pass") || ""
-  );
-  const isAdmin = adminPass === ADMIN_KEY;
+  const [adminPass, setAdminPass] = useState("");
+  const [isAdmin, setIsAdmin] = useState(() => {
+    try {
+      localStorage.removeItem("patho-admin-pass"); // 旧方式で平文保存していたパスを消す
+      return !!ADMIN_HASH && localStorage.getItem(ADMIN_OK_KEY) === ADMIN_HASH;
+    } catch {
+      return false;
+    }
+  });
 
   useEffect(() => {
-    try {
-      localStorage.setItem("patho-admin-pass", adminPass);
-    } catch {}
+    if (!adminPass || !ADMIN_HASH) return;
+    let alive = true;
+    sha256Hex(adminPass)
+      .then((h) => {
+        if (!alive || h !== ADMIN_HASH) return;
+        setIsAdmin(true);
+        setAdminPass("");
+        try {
+          localStorage.setItem(ADMIN_OK_KEY, ADMIN_HASH);
+        } catch {}
+      })
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
   }, [adminPass]);
+
+  const logoutAdmin = () => {
+    setIsAdmin(false);
+    try {
+      localStorage.removeItem(ADMIN_OK_KEY);
+    } catch {}
+  };
 
   const [mode, setMode] = useState("practice");
   const [backupMsg, setBackupMsg] = useState("");
@@ -531,12 +562,20 @@ export default function App() {
                   <button style={btn(false)} onClick={resetScoreOnly}>スコアリセット</button>
                 </div>
                 <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-                  <input
-                    value={adminPass}
-                    onChange={(e) => setAdminPass(e.target.value)}
-                    placeholder="管理者パス"
-                    style={{ width: 180, ...inputStyle }}
-                  />
+                  {isAdmin ? (
+                    <button style={{ ...btn(false), padding: "6px 10px", fontSize: 12 }} onClick={logoutAdmin} type="button">
+                      管理者ログアウト
+                    </button>
+                  ) : (
+                    <input
+                      type="password"
+                      autoComplete="off"
+                      value={adminPass}
+                      onChange={(e) => setAdminPass(e.target.value)}
+                      placeholder="管理者パス"
+                      style={{ width: 180, ...inputStyle }}
+                    />
+                  )}
                   <div style={{ fontSize: 12, color: isAdmin ? "#34d399" : "#94a3b8" }}>
                     {isAdmin ? "ADMIN" : "USER"}
                   </div>
